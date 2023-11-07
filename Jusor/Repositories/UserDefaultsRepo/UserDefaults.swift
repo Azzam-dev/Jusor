@@ -9,4 +9,12 @@ import Foundation
 
 extension UserDefaults {
     
+    func didUserCompleteIntro() -> Bool {
+        return bool(forKey: "introCompleted")
+    }
+    
+    func introCompleted() {
+        set(true, forKey: "introCompleted")
+    }
+    
 }

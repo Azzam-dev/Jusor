@@ -7,7 +7,8 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class HomeVC: UIViewController, Storyboarded {
+    var coordinator: MainCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()

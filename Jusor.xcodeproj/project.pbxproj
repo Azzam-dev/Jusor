@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2189F2662AF6845200FEB125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2652AF6845200FEB125 /* AppDelegate.swift */; };
 		2189F2682AF6845200FEB125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2672AF6845200FEB125 /* SceneDelegate.swift */; };
-		2189F26A2AF6845200FEB125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2692AF6845200FEB125 /* ViewController.swift */; };
+		2189F26A2AF6845200FEB125 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2692AF6845200FEB125 /* HomeVC.swift */; };
 		2189F26D2AF6845200FEB125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2189F26B2AF6845200FEB125 /* Main.storyboard */; };
 		2189F26F2AF6845400FEB125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2189F26E2AF6845400FEB125 /* Assets.xcassets */; };
 		2189F2722AF6845400FEB125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2189F2702AF6845400FEB125 /* LaunchScreen.storyboard */; };
@@ -40,13 +40,27 @@
 		2189F2EF2AF8DE4000FEB125 /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 2189F2EE2AF8DE4000FEB125 /* Popovers */; };
 		2189F2F22AF8DE9800FEB125 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2189F2F12AF8DE9800FEB125 /* SnapKit */; };
 		2189F2F72AF8DF4500FEB125 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2189F2F62AF8DF4500FEB125 /* Lottie */; };
+		2189F2F92AF902F300FEB125 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2F82AF902F300FEB125 /* IntroVC.swift */; };
+		2189F2FB2AF9041100FEB125 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2FA2AF9041100FEB125 /* ContainerVC.swift */; };
+		2189F2FD2AF9043800FEB125 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2FC2AF9043800FEB125 /* NavigationVC.swift */; };
+		2189F2FF2AF905C900FEB125 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F2FE2AF905C900FEB125 /* UIView+Extensions.swift */; };
+		2189F3012AF9062C00FEB125 /* LottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3002AF9062C00FEB125 /* LottieManager.swift */; };
+		2189F3062AF906AC00FEB125 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 2189F3042AF906AC00FEB125 /* confetti.json */; };
+		2189F3072AF906AC00FEB125 /* party.json in Resources */ = {isa = PBXBuildFile; fileRef = 2189F3052AF906AC00FEB125 /* party.json */; };
+		2189F3092AF906CD00FEB125 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3082AF906CD00FEB125 /* UIColor+Extensions.swift */; };
+		2189F30B2AF906F000FEB125 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F30A2AF906F000FEB125 /* UIFont+Extensions.swift */; };
+		2189F30D2AF9071D00FEB125 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F30C2AF9071D00FEB125 /* String+Extensions.swift */; };
+		2189F30F2AF907B000FEB125 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F30E2AF907B000FEB125 /* AuthVC.swift */; };
+		2189F3112AF90C1300FEB125 /* ChartsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3102AF90C1300FEB125 /* ChartsVC.swift */; };
+		2189F3132AF90C2200FEB125 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3122AF90C2200FEB125 /* SettingsVC.swift */; };
+		2189F3152AF90C3500FEB125 /* BookmarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3142AF90C3500FEB125 /* BookmarkVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2189F2622AF6845200FEB125 /* Jusor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jusor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2189F2652AF6845200FEB125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2189F2672AF6845200FEB125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2189F2692AF6845200FEB125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2189F2692AF6845200FEB125 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2189F26C2AF6845200FEB125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2189F26E2AF6845400FEB125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2189F2712AF6845400FEB125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +78,20 @@
 		2189F29A2AF7B10C00FEB125 /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
 		2189F2A22AF7B2F500FEB125 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2189F2DC2AF7B64500FEB125 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		2189F2F82AF902F300FEB125 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		2189F2FA2AF9041100FEB125 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		2189F2FC2AF9043800FEB125 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		2189F2FE2AF905C900FEB125 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		2189F3002AF9062C00FEB125 /* LottieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
+		2189F3042AF906AC00FEB125 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		2189F3052AF906AC00FEB125 /* party.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = party.json; sourceTree = "<group>"; };
+		2189F3082AF906CD00FEB125 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		2189F30A2AF906F000FEB125 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		2189F30C2AF9071D00FEB125 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2189F30E2AF907B000FEB125 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		2189F3102AF90C1300FEB125 /* ChartsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsVC.swift; sourceTree = "<group>"; };
+		2189F3122AF90C2200FEB125 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		2189F3142AF90C3500FEB125 /* BookmarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +191,14 @@
 		2189F27D2AF7AEF000FEB125 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2189F2692AF6845200FEB125 /* ViewController.swift */,
+				2189F2FA2AF9041100FEB125 /* ContainerVC.swift */,
+				2189F2FC2AF9043800FEB125 /* NavigationVC.swift */,
+				2189F2F82AF902F300FEB125 /* IntroVC.swift */,
+				2189F30E2AF907B000FEB125 /* AuthVC.swift */,
+				2189F2692AF6845200FEB125 /* HomeVC.swift */,
+				2189F3102AF90C1300FEB125 /* ChartsVC.swift */,
+				2189F3142AF90C3500FEB125 /* BookmarkVC.swift */,
+				2189F3122AF90C2200FEB125 /* SettingsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +216,10 @@
 		2189F27F2AF7AF3800FEB125 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2189F2FE2AF905C900FEB125 /* UIView+Extensions.swift */,
+				2189F3082AF906CD00FEB125 /* UIColor+Extensions.swift */,
+				2189F30A2AF906F000FEB125 /* UIFont+Extensions.swift */,
+				2189F30C2AF9071D00FEB125 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -189,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				2189F26E2AF6845400FEB125 /* Assets.xcassets */,
+				2189F3022AF9068B00FEB125 /* Lottie */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -242,8 +282,26 @@
 			isa = PBXGroup;
 			children = (
 				2189F2DC2AF7B64500FEB125 /* KeyboardManager.swift */,
+				2189F3002AF9062C00FEB125 /* LottieManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		2189F3022AF9068B00FEB125 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				2189F3032AF9069900FEB125 /* Celebration */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		2189F3032AF9069900FEB125 /* Celebration */ = {
+			isa = PBXGroup;
+			children = (
+				2189F3042AF906AC00FEB125 /* confetti.json */,
+				2189F3052AF906AC00FEB125 /* party.json */,
+			);
+			path = Celebration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +387,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2189F3062AF906AC00FEB125 /* confetti.json in Resources */,
 				2189F2722AF6845400FEB125 /* LaunchScreen.storyboard in Resources */,
+				2189F3072AF906AC00FEB125 /* party.json in Resources */,
 				2189F2A32AF7B2F500FEB125 /* GoogleService-Info.plist in Resources */,
 				2189F26F2AF6845400FEB125 /* Assets.xcassets in Resources */,
 				2189F26D2AF6845200FEB125 /* Main.storyboard in Resources */,
@@ -345,17 +405,29 @@
 			files = (
 				2189F2882AF7AFBC00FEB125 /* ReduxActions.swift in Sources */,
 				2189F2842AF7AF9F00FEB125 /* ReduxStore.swift in Sources */,
+				2189F3012AF9062C00FEB125 /* LottieManager.swift in Sources */,
 				2189F2DD2AF7B64500FEB125 /* KeyboardManager.swift in Sources */,
+				2189F3092AF906CD00FEB125 /* UIColor+Extensions.swift in Sources */,
 				2189F2862AF7AFAB00FEB125 /* ReduxState.swift in Sources */,
-				2189F26A2AF6845200FEB125 /* ViewController.swift in Sources */,
+				2189F2FB2AF9041100FEB125 /* ContainerVC.swift in Sources */,
+				2189F26A2AF6845200FEB125 /* HomeVC.swift in Sources */,
 				2189F2992AF7B0EF00FEB125 /* UserDefaults.swift in Sources */,
 				2189F28C2AF7AFE900FEB125 /* User.swift in Sources */,
 				2189F2922AF7B04400FEB125 /* MainCoordinator.swift in Sources */,
 				2189F2662AF6845200FEB125 /* AppDelegate.swift in Sources */,
+				2189F30B2AF906F000FEB125 /* UIFont+Extensions.swift in Sources */,
+				2189F3132AF90C2200FEB125 /* SettingsVC.swift in Sources */,
 				2189F28A2AF7AFD400FEB125 /* ReduxReducer.swift in Sources */,
 				2189F2972AF7B0D600FEB125 /* FirebaseRepository.swift in Sources */,
+				2189F2FF2AF905C900FEB125 /* UIView+Extensions.swift in Sources */,
+				2189F2FD2AF9043800FEB125 /* NavigationVC.swift in Sources */,
 				2189F2902AF7B02D00FEB125 /* Storyboarded.swift in Sources */,
+				2189F30F2AF907B000FEB125 /* AuthVC.swift in Sources */,
 				2189F29B2AF7B10C00FEB125 /* RealmRepository.swift in Sources */,
+				2189F30D2AF9071D00FEB125 /* String+Extensions.swift in Sources */,
+				2189F3112AF90C1300FEB125 /* ChartsVC.swift in Sources */,
+				2189F3152AF90C3500FEB125 /* BookmarkVC.swift in Sources */,
+				2189F2F92AF902F300FEB125 /* IntroVC.swift in Sources */,
 				2189F2682AF6845200FEB125 /* SceneDelegate.swift in Sources */,
 				2189F28E2AF7B00300FEB125 /* Coordinator.swift in Sources */,
 			);
