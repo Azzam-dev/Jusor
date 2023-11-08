@@ -54,6 +54,17 @@
 		2189F3112AF90C1300FEB125 /* ChartsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3102AF90C1300FEB125 /* ChartsVC.swift */; };
 		2189F3132AF90C2200FEB125 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3122AF90C2200FEB125 /* SettingsVC.swift */; };
 		2189F3152AF90C3500FEB125 /* BookmarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3142AF90C3500FEB125 /* BookmarkVC.swift */; };
+		2189F3182AFC0F8A00FEB125 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3172AFC0F8A00FEB125 /* SettingsTableViewCell.swift */; };
+		2189F31A2AFC0FCD00FEB125 /* SettingsSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3192AFC0FCD00FEB125 /* SettingsSwitchTableViewCell.swift */; };
+		2189F31C2AFC101E00FEB125 /* MainSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F31B2AFC101E00FEB125 /* MainSettingsVC.swift */; };
+		2189F31E2AFC10B100FEB125 /* WhatsNewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F31D2AFC10B100FEB125 /* WhatsNewVC.swift */; };
+		2189F3202AFC114600FEB125 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F31F2AFC114600FEB125 /* HelpVC.swift */; };
+		2189F3222AFC115A00FEB125 /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3212AFC115A00FEB125 /* SupportVC.swift */; };
+		2189F3242AFC116800FEB125 /* SendFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3232AFC116800FEB125 /* SendFeedbackVC.swift */; };
+		2189F3262AFC117500FEB125 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3252AFC117500FEB125 /* PrivacyPolicyVC.swift */; };
+		2189F3282AFC118200FEB125 /* TermsOfUseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3272AFC118200FEB125 /* TermsOfUseVC.swift */; };
+		2189F32A2AFC119100FEB125 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F3292AFC119100FEB125 /* AboutUsVC.swift */; };
+		2189F32C2AFC11B400FEB125 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189F32B2AFC11B400FEB125 /* CreditsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +103,17 @@
 		2189F3102AF90C1300FEB125 /* ChartsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsVC.swift; sourceTree = "<group>"; };
 		2189F3122AF90C2200FEB125 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		2189F3142AF90C3500FEB125 /* BookmarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkVC.swift; sourceTree = "<group>"; };
+		2189F3172AFC0F8A00FEB125 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		2189F3192AFC0FCD00FEB125 /* SettingsSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		2189F31B2AFC101E00FEB125 /* MainSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettingsVC.swift; sourceTree = "<group>"; };
+		2189F31D2AFC10B100FEB125 /* WhatsNewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewVC.swift; sourceTree = "<group>"; };
+		2189F31F2AFC114600FEB125 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		2189F3212AFC115A00FEB125 /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		2189F3232AFC116800FEB125 /* SendFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFeedbackVC.swift; sourceTree = "<group>"; };
+		2189F3252AFC117500FEB125 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		2189F3272AFC118200FEB125 /* TermsOfUseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseVC.swift; sourceTree = "<group>"; };
+		2189F3292AFC119100FEB125 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		2189F32B2AFC11B400FEB125 /* CreditsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,7 +220,15 @@
 				2189F2692AF6845200FEB125 /* HomeVC.swift */,
 				2189F3102AF90C1300FEB125 /* ChartsVC.swift */,
 				2189F3142AF90C3500FEB125 /* BookmarkVC.swift */,
-				2189F3122AF90C2200FEB125 /* SettingsVC.swift */,
+				2189F32B2AFC11B400FEB125 /* CreditsVC.swift */,
+				2189F3292AFC119100FEB125 /* AboutUsVC.swift */,
+				2189F3272AFC118200FEB125 /* TermsOfUseVC.swift */,
+				2189F3252AFC117500FEB125 /* PrivacyPolicyVC.swift */,
+				2189F3232AFC116800FEB125 /* SendFeedbackVC.swift */,
+				2189F3212AFC115A00FEB125 /* SupportVC.swift */,
+				2189F31F2AFC114600FEB125 /* HelpVC.swift */,
+				2189F31D2AFC10B100FEB125 /* WhatsNewVC.swift */,
+				2189F3162AFC0F7000FEB125 /* SettingsVC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -304,6 +334,17 @@
 			path = Celebration;
 			sourceTree = "<group>";
 		};
+		2189F3162AFC0F7000FEB125 /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				2189F3122AF90C2200FEB125 /* SettingsVC.swift */,
+				2189F31B2AFC101E00FEB125 /* MainSettingsVC.swift */,
+				2189F3172AFC0F8A00FEB125 /* SettingsTableViewCell.swift */,
+				2189F3192AFC0FCD00FEB125 /* SettingsSwitchTableViewCell.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -403,29 +444,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2189F31A2AFC0FCD00FEB125 /* SettingsSwitchTableViewCell.swift in Sources */,
 				2189F2882AF7AFBC00FEB125 /* ReduxActions.swift in Sources */,
 				2189F2842AF7AF9F00FEB125 /* ReduxStore.swift in Sources */,
 				2189F3012AF9062C00FEB125 /* LottieManager.swift in Sources */,
+				2189F31C2AFC101E00FEB125 /* MainSettingsVC.swift in Sources */,
 				2189F2DD2AF7B64500FEB125 /* KeyboardManager.swift in Sources */,
 				2189F3092AF906CD00FEB125 /* UIColor+Extensions.swift in Sources */,
 				2189F2862AF7AFAB00FEB125 /* ReduxState.swift in Sources */,
 				2189F2FB2AF9041100FEB125 /* ContainerVC.swift in Sources */,
+				2189F3202AFC114600FEB125 /* HelpVC.swift in Sources */,
 				2189F26A2AF6845200FEB125 /* HomeVC.swift in Sources */,
 				2189F2992AF7B0EF00FEB125 /* UserDefaults.swift in Sources */,
 				2189F28C2AF7AFE900FEB125 /* User.swift in Sources */,
+				2189F32C2AFC11B400FEB125 /* CreditsVC.swift in Sources */,
+				2189F3242AFC116800FEB125 /* SendFeedbackVC.swift in Sources */,
 				2189F2922AF7B04400FEB125 /* MainCoordinator.swift in Sources */,
 				2189F2662AF6845200FEB125 /* AppDelegate.swift in Sources */,
 				2189F30B2AF906F000FEB125 /* UIFont+Extensions.swift in Sources */,
 				2189F3132AF90C2200FEB125 /* SettingsVC.swift in Sources */,
+				2189F3222AFC115A00FEB125 /* SupportVC.swift in Sources */,
 				2189F28A2AF7AFD400FEB125 /* ReduxReducer.swift in Sources */,
 				2189F2972AF7B0D600FEB125 /* FirebaseRepository.swift in Sources */,
+				2189F3262AFC117500FEB125 /* PrivacyPolicyVC.swift in Sources */,
 				2189F2FF2AF905C900FEB125 /* UIView+Extensions.swift in Sources */,
+				2189F3282AFC118200FEB125 /* TermsOfUseVC.swift in Sources */,
 				2189F2FD2AF9043800FEB125 /* NavigationVC.swift in Sources */,
+				2189F3182AFC0F8A00FEB125 /* SettingsTableViewCell.swift in Sources */,
 				2189F2902AF7B02D00FEB125 /* Storyboarded.swift in Sources */,
 				2189F30F2AF907B000FEB125 /* AuthVC.swift in Sources */,
+				2189F31E2AFC10B100FEB125 /* WhatsNewVC.swift in Sources */,
 				2189F29B2AF7B10C00FEB125 /* RealmRepository.swift in Sources */,
 				2189F30D2AF9071D00FEB125 /* String+Extensions.swift in Sources */,
 				2189F3112AF90C1300FEB125 /* ChartsVC.swift in Sources */,
+				2189F32A2AFC119100FEB125 /* AboutUsVC.swift in Sources */,
 				2189F3152AF90C3500FEB125 /* BookmarkVC.swift in Sources */,
 				2189F2F92AF902F300FEB125 /* IntroVC.swift in Sources */,
 				2189F2682AF6845200FEB125 /* SceneDelegate.swift in Sources */,
