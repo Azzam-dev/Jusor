@@ -119,7 +119,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="v7W-0i-I6p">
-                                <rect key="frame" x="20" y="309.66666666666669" width="353" height="223.00000000000006"/>
+                                <rect key="frame" x="20" y="285.33333333333337" width="353" height="271.33333333333337"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xEO-8c-a20">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="34"/>
@@ -140,7 +140,7 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="plU-p6-8Ar">
-                                        <rect key="frame" x="0.0" y="136.33333333333331" width="353" height="38.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="136.33333333333337" width="353" height="38.333333333333343"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm4-Ke-OBT">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="38.333333333333336"/>
@@ -163,11 +163,19 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0b-un-QlU">
-                                        <rect key="frame" x="0.0" y="184.66666666666663" width="353" height="38.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="184.66666666666669" width="353" height="38.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="create new account"/>
                                         <connections>
                                             <action selector="didPressCreateAccount:" destination="TL7-aV-Hoa" eventType="touchUpInside" id="weV-tj-iIm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbh-zW-Fdl">
+                                        <rect key="frame" x="0.0" y="233.00000000000006" width="353" height="38.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="skip - sign In Anonymously"/>
+                                        <connections>
+                                            <action selector="didPressLoginAnonymously:" destination="TL7-aV-Hoa" eventType="touchUpInside" id="fTG-eb-gm4"/>
                                         </connections>
                                     </button>
                                 </subviews>

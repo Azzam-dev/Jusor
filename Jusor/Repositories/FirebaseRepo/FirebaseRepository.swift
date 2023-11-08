@@ -22,4 +22,15 @@ final class FirebaseRepository {
         FirebaseApp.configure()
     }
     
+    func anonymousAuth() {
+        if let user = Auth.auth().currentUser {
+            ReduxStore.dispatch(AuthUserAction(user: user))
+        } else {
+            Auth.auth().signInAnonymously { authResult, error in
+                guard let user = authResult?.user else { return }
+                ReduxStore.dispatch(AuthUserAction(user: user))
+            }
+        }
+    }
+    
 }

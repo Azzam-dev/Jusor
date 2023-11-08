@@ -14,3 +14,6 @@
 
 
 import ReSwift
+
+// MARK: User Actions
+struct AuthUserAction: Action { let user: User }

@@ -15,4 +15,6 @@ import ReSwift
 
 struct ReduxState {
     
+    var user: User?
+    
 }

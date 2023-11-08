@@ -23,8 +23,9 @@ func reduxReducer(action: Action, state: ReduxState?) -> ReduxState {
     var state = state ?? ReduxState()
 
     switch action {
-    //case let action as someAction:
-        //state.user = action.user
+    case let action as AuthUserAction:
+        state.user = action.user
+        
     default:
         break
     }

@@ -22,10 +22,6 @@ class AuthVC: UIViewController {
         view.backgroundColor = .green
     }
     
-    @IBAction func didPressCreateAccount(_ sender: Any) {
-        view.backgroundColor = .blue
-    }
-    
     @IBAction func didPressLoginWithGoogle(_ sender: Any) {
         view.backgroundColor = .orange
     }
@@ -33,6 +29,16 @@ class AuthVC: UIViewController {
     @IBAction func didPressLoginWithApple(_ sender: Any) {
         view.backgroundColor = .gray
     }
+    
+    @IBAction func didPressCreateAccount(_ sender: Any) {
+        view.backgroundColor = .blue
+    }
+    
+    @IBAction func didPressLoginAnonymously(_ sender: Any) {
+        FirebaseRepository.shared.anonymousAuth()
+    }
+    
+    
     
 
 }

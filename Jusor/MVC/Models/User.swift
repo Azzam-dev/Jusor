@@ -6,3 +6,6 @@
 //
 
 import Foundation
+import Firebase
+
+typealias User = Firebase.User
